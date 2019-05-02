@@ -20,7 +20,7 @@ Lang.init = function () {
             load: 'languageOnly',
             resGetPath: 'lang/{{lng}}/{{ns}}.json?TSTAMP',
             fallbackLng: ['en', 'de'],
-            whitelist: ['en', 'de', 'nl', 'ro', 'pl'],
+            whitelist: ['en', 'de', 'nl', 'ro', 'pl', 'hu'],
             nonExplicitWhitelist: true,
             backend: {
                 loadPath: 'lang/{{lng}}/{{ns}}.json?TSTAMP'
@@ -86,6 +86,12 @@ Lang.setPL = function () {
     this.set("pl");
 };
 
+Lang.setHU = function () {
+    'use strict';
+
+    trackAction("langHU");
+    this.set("hu");
+};
 
 Lang.t = function (key) {
     'use strict';

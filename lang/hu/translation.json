@@ -9,12 +9,12 @@
         "help": "Help (in German)",
         "impress": "Info/Impress",
         "whatsnew": "What's new?",
-        "english": "English <i class=\"fa fa-check\"></i>",
+        "english": "English",
         "german": "Deutsch",
         "dutch": "Nederlands",
         "romanian": "Română",
         "polish": "Polski"
-        "hungarian": "Magyar"
+        "hungarian": "Magyar <i class=\"fa fa-check\"></i>"
     },
 
     "contextmenu": {
